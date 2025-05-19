@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetecTron - O Futuro da Segurança</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #303030;
+            color: #ffffff;
+        }
+
+        section {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .circle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #020303;
+            clip-path: circle(50% at bottom right);
+            z-index: -1;
+        }
+
+        header {
+            width: 100%;
+            max-width: 1280px;
+            padding: 30px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            max-width: 250px;
+            position: relative;
+            z-index: 1;
+
+        }
+
+        .container {
+            max-width: 800px;
+   
+            padding: 40px 20px;
+        }
+
+     
+        .container h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ffe70d;
+            
+            
+        }
+
+        .container p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #ffffff;
+            margin-bottom: 20px;
+           
+        }
+
+        .img_detecao {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .img_detecao2 {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .img_detecao3 {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .container a {
+            display: inline-block;
+        padding: 10px 25px;
+        background: #083169;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 1px;
+        border-radius: 40px;
+        transition: 0.3s ease-in-out;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        }
+
+        .container a:hover {
+            transform: translateY(-10px);
+        }
+
+        .container p span {
+            font-size: 1em;
+            color: #2663b9;
+        }
+
+        .container p span w{
+            font-size: 1.2em;
+            color: #74e08f;
+        }
+
+        .form-container {
+        max-width: 400px;
+        background-color: #111;
+        margin: 20px auto;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgb(0, 170, 255);
+        animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #ffffffef;
+        }
+
+        .form-container input {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        background: #1c1c1c;
+        border: 1px solid #333;
+        color: #fff;
+        border-radius: 8px;
+        }
+
+        .form-container button {
+        width: 100%;
+        padding: 12px;
+        background-color: #00aaff;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        }
+
+        .form-container button:hover {
+        background-color: #008fcc;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container h1 {
+                font-size: 1.5em;
+            }
+
+            .form-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <img src="img/logo.png" alt="DetecTron Logo" class="logo">
+        </header>
+
+        <div class="container">
+            <h1>ACABE COM FURTOS NO SEU COMÉRCIO UTILIZANDO INTELIGÊNCIA ARTIFICIAL QUE DETECTA AMEAÇAS EM TEMPO REAL.</h1>
+            <p><br></p>
+            <p>Furtos silenciosos, movimentos estranhos, suspeitas que passam despercebidas. Será que as câmeras do seu comércio realmente estão protegendo você? Ou só gravando para depois?</p>
+            <img id="img1" src="img/ultra.png" alt="DetecTron" class="img_detecao">
+            <p>DetectGuard é a inteligência artificial da DetecTron desenvolvida especialmente para proteger comércios de furtos, roubos e ações suspeitas, agindo de forma automática, precisa e em tempo real.</p>
+            <p><br></p>
+            <div></div>
+            <a class="btn_beneficios" onclick="location.href='#meuforms'">Quero conhecer os benefícios</a>
+            <p><br></p>
+            <p>🧠 <strong>Com DetectGuard você tem <span class="w"><b>menos perdas</b></span> e <span><b>mais segurança</b></span>.</strong></p>
+            <p>Descubra como virar o jogo. <strong>Cadastre-se e entre para a revolução invisível que já começou.</strong></p>
+            
+            <img id="img2" src="img/ultra1.avif" alt="DetecTron" class="img_detecao2">
+            <img id="img3" src="img/ultra2.jpg" alt="DetecTron" class="img_detecao3">
+        </div>
+        
+
+        <div class="form-container">
+            <h2>Quero saber mais</h2>
+            <form id="meuforms" action="#" method="post" >
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="telefone" placeholder="Número Celular" required>
+                <input type="empresa" placeholder="Nome da Empresa" required>
+                <input type="ramo" placeholder="Ramo da Empresa" required>
+                <input type="cargo" placeholder="Cargo" required>
+                <input type="endereco" placeholder="Cidade" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <footer>
+            &copy; 2025 DetecTron. Todos os direitos reservados.
+        </footer>
+    </section>
+</body>
+</html>
